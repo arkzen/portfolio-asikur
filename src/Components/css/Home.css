@@ -1,0 +1,125 @@
+.homeContainer {
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homeContainer .left {
+  width: 40%;
+  animation: leftToRight;
+  animation-duration: 1.5s;
+}
+@keyframes leftToRight {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+.homeContainer .left h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 34px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.left .talk {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.right {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes rotateLeft {
+  0% {
+    transform: rotate(0deg);
+    margin-left: 0px;
+  }
+  100% {
+    transform: rotate(-15deg);
+    margin-left: -100px;
+  }
+}
+
+.right .cardOne {
+  position: absolute;
+  height: 440px;
+  width: 300px;
+  margin-left: -100px;
+  border-radius: 10px;
+  animation-name: rotateLeft;
+  animation-duration: 1.3s;
+  animation-timing-function: ease-in-out;
+  transform: rotate(-15deg);
+}
+@keyframes rotateRight {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(7deg);
+  }
+}
+.right .cardTwo {
+  position: absolute;
+  height: 500px;
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  animation-name: rotateRight;
+  animation-duration: 1.3s;
+  animation-timing-function: ease-in-out;
+  transform: rotate(7deg);
+  background-color: black;
+}
+
+@media screen and (max-width: 1140px) {
+  .title {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  .right .cardOne {
+    height: 400px;
+    width: 200px;
+    margin-left: -150px;
+  }
+  .right .cardTwo {
+    height: 400px;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .homeContainer {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .homeContainer .left {
+    width: 100%;
+    height: 30vh;
+  }
+  .homeContainer .left h2 {
+    font-size: 20px;
+  }
+
+  .right {
+    margin-left: 90px;
+  }
+  .right .cardOne {
+    height: 250px;
+    width: 150px;
+    top: 65vh;
+  }
+  .right .cardTwo {
+    height: 250px;
+    width: 150px;
+    top: 65vh;
+  }
+}

@@ -1,0 +1,63 @@
+#Skill h2 {
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.skillCards {
+  width: 85%;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.skillCard {
+  padding: 25px 35px;
+  width: 150px;
+  height: 200px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.skillCard p {
+  font-size: 40px;
+}
+.skillCard :first-child {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1180px) {
+  .skillCard {
+    padding: 25px;
+    width: 80px;
+    height: 130px;
+  }
+  .skillCard :first-child {
+    margin-bottom: 0px;
+  }
+  .skillCard p {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #Skill {
+    margin: auto 0px;
+    width: 100%;
+  }
+  .skillCard {
+    height: 75px;
+    width: 50px;
+  }
+  .skillCard p {
+    font-size: 20px;
+  }
+  .skillCard h3 {
+    font-size: 16px;
+  }
+}
