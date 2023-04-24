@@ -23,9 +23,9 @@ export default function About({ colorBG, colorText, colorDynamic }) {
         <div className="rightPart">
           <h2>Hello!</h2>
           <p>
-            I am Mehedi, a front-end web developer from Bangladesh. I have deep
+            I am Asikur, android developer from Bangladesh. I have deep
             understanding of the technologies and the processes required for
-            realising a successful web project from A to Z. I'm ready and eager
+            realising a successful android project from A to Z. I'm ready and eager
             to work to create something simple and unique.
           </p>
           <div className="aboutContact">
@@ -56,7 +56,7 @@ export default function About({ colorBG, colorText, colorDynamic }) {
             <a
               className="resume"
               style={{ backgroundColor: colorDynamic, color: colorBG }}
-              href="https://drive.google.com/file/d/1rq66V7Fs6gFX09_8iqe2H3RTk6VpEklu/view?usp=sharing"
+              href="https://asikur-docs.s3.ap-southeast-2.amazonaws.com/Resume-of-Asikur+rahman.pdf"
               target="_blank"
               rel="noreferrer"
             >
