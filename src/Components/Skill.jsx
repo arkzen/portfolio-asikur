@@ -5,8 +5,12 @@ import {
   SiNodedotjs,
   SiHtml5,
   SiCss3,
+  SiFirebase,
   SiGithub,
   SiMongodb,
+  SiJenkins,
+  SiDocker,
+  SiKubernetes,
   SiJava,
   SiExpress,
   SiKotlin,
@@ -52,9 +56,15 @@ export default function Skill({ colorBG, colorText, colorDynamic }) {
           </p>
         </div>
         <div className="skillCard">
-          <h3>Rest API</h3>
-          <p style={{ color: "#dd4b25" }}>
-            <SiCloudflare />
+          <h3>Firebase</h3>
+          <p style={{ color: "#790079" }}>
+            <SiFirebase />
+          </p>
+        </div>
+        <div className="skillCard">
+          <h3>Html5</h3>
+          <p style={{ color: "#254bdd" }}>
+            <SiHtml5 />
           </p>
         </div>
         <div className="skillCard">
@@ -64,30 +74,42 @@ export default function Skill({ colorBG, colorText, colorDynamic }) {
           </p>
         </div>
         <div className="skillCard">
-          <h3>Git</h3>
+          <h3>JavaScript</h3>
           <p style={{ color: "#790079" }}>
-            <SiGit />
+            <SiJavascript />
+          </p>
+        </div>       
+        <div className="skillCard">
+          <h3>React</h3>
+          <p style={{ color: "#dd4b25" }}>
+            <SiReact/>
           </p>
         </div>
       </div>
-      <h2>Basic knowledge</h2>
+      <h2>Others</h2>
       <div className="skillCards">
         <div className="skillCard">
-          <h3>MongoDB</h3>
+          <h3>Git</h3>
           <p style={{ color: "#0fa14c" }}>
-            <SiMongodb />
+            <SiGit />
           </p>
         </div>
         <div className="skillCard">
-          <h3>Java</h3>
+          <h3>Jenkins</h3>
           <p style={{ color: "#fe0000" }}>
-            <SiJava />
+            <SiJenkins />
           </p>
         </div>
         <div className="skillCard">
-          <h3>Express</h3>
+          <h3>Docker</h3>
           <p style={{ color: colorText }}>
-            <SiExpress />
+            <SiDocker />
+          </p>
+        </div>
+        <div className="skillCard">
+          <h3>Kubernetes</h3>
+          <p style={{ color: colorText }}>
+            <SiKubernetes />
           </p>
         </div>
       </div>

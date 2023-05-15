@@ -26,7 +26,7 @@ export default function Home({ colorBG, colorText, colorDynamic }) {
           <h1 className="title" style={{ color: colorDynamic }}>
             <strong>Asikur Rahman</strong>
           </h1>
-          <h2>Android developer in Bangladesh</h2>
+          <h2>Software Engineer in Bangladesh</h2>
           <a
             href="#Contact"
             style={{ color: colorText }}

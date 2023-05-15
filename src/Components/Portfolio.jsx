@@ -1,31 +1,31 @@
 import "./css/Portfolio.css";
 import { FcLink, FcNext } from "react-icons/fc";
-import agency from "../img/agency.png";
-import tools from "../img/tools.png";
-import portfolio from "../img/portfolio.png";
+import mathstore from "../img/mathstore.jpeg";
+import shopping from "../img/shopping.JPG";
+import netflix from "../img/netflix.JPG"
 
 export default function Portfolio({ colorBG, colorText, colorDynamic }) {
   const workList = [
     {
-      image: portfolio,
-      title: "Personal Portfolio",
-      technologyUsed: "HTML, CSS, JavaScript, React",
-      liveLink: "https://mehediprime.github.io/PortfolioMehedi",
-      githubLink: "https://github.com/MehediPrime/PortfolioMehedi",
+      image: netflix,
+      title: "Netflix Landing Page Clone",
+      technologyUsed: "HTML, CSS",
+      liveLink: "https://netflixclonebyasikur.netlify.app/",
+      githubLink: "https://github.com/arkzen/Netflix-Clone",
     },
     {
-      image: tools,
-      title: "Various Tools",
+      image: shopping,
+      title: "Ecommerce React App",
       technologyUsed: "HTML, CSS, JavaScript, React",
-      liveLink: "https://mehediprime.github.io/my-tools/",
-      githubLink: "https://github.com/MehediPrime/my-tools/",
+      liveLink: "https://darkzenshop.netlify.app/",
+      githubLink: "https://github.com/arkzen/darkzenshop-reactapp",
     },
     {
-      image: agency,
-      title: "Agency Website",
-      technologyUsed: "HTML, CSS, JavaScript, React",
-      liveLink: "https://mehediprime.github.io/Agency-Website/",
-      githubLink: "https://github.com/MehediPrime/Agency-Website",
+      image: mathstore,
+      title: "MathStore Android App",
+      technologyUsed: "Java, Android",
+      liveLink: "https://play.google.com/store/apps/details?id=darkzen.studios.mathstoreproject&pli=1",
+      githubLink: "https://github.com/arkzen/MathStore",
     },
   ];
 
