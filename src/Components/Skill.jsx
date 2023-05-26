@@ -1,13 +1,7 @@
 import "./css/Skill.css";
 import {
-  SiJavascript,
-  SiReact,
-  SiNodedotjs,
-  SiHtml5,
-  SiCss3,
   SiFirebase,
   SiGithub,
-  SiMongodb,
   SiJenkins,
   SiDocker,
   SiKubernetes,
@@ -17,7 +11,10 @@ import {
   SiAndroid,
   SiAndroidauto,
   SiStrapi,
+  SiAndroidstudio,
   SiCloud66,
+  SiGoogleplay,
+  SiAmazons3,
   SiCloudflare,
   SiGit,
 } from "react-icons/si";
@@ -62,27 +59,15 @@ export default function Skill({ colorBG, colorText, colorDynamic }) {
           </p>
         </div>
         <div className="skillCard">
-          <h3>Html5</h3>
+          <h3>Retrofit</h3>
           <p style={{ color: "#254bdd" }}>
-            <SiHtml5 />
+            <SiCloudflare/>
           </p>
         </div>
         <div className="skillCard">
-          <h3>CSS</h3>
+          <h3>Android Studio</h3>
           <p style={{ color: "#254bdd" }}>
-            <SiCss3 />
-          </p>
-        </div>
-        <div className="skillCard">
-          <h3>JavaScript</h3>
-          <p style={{ color: "#790079" }}>
-            <SiJavascript />
-          </p>
-        </div>       
-        <div className="skillCard">
-          <h3>React</h3>
-          <p style={{ color: "#dd4b25" }}>
-            <SiReact/>
+            <SiAndroidstudio/>
           </p>
         </div>
       </div>
@@ -101,15 +86,9 @@ export default function Skill({ colorBG, colorText, colorDynamic }) {
           </p>
         </div>
         <div className="skillCard">
-          <h3>Docker</h3>
+          <h3>Google Play</h3>
           <p style={{ color: colorText }}>
-            <SiDocker />
-          </p>
-        </div>
-        <div className="skillCard">
-          <h3>Kubernetes</h3>
-          <p style={{ color: colorText }}>
-            <SiKubernetes />
+            <SiGoogleplay />
           </p>
         </div>
       </div>

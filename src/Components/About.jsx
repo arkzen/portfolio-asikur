@@ -23,10 +23,11 @@ export default function About({ colorBG, colorText, colorDynamic }) {
         <div className="rightPart">
           <h2>Hello!</h2>
           <p>
-            I am Asikur, Software Engineer from Bangladesh. I have deep
+            I am Asikur, an android developer from Bangladesh. I have deep
             understanding of the technologies and the processes required for
-            realising a successful android and web project from A to Z.And i have  DevOps knowledge that allows me to seamlessly integrate development and operations, ensuring the quality and reliability of the software projects I work on. ensuring the quality and reliability of the software projects I work on. I'm ready and eager
-            to work to create something simple and unique.
+            realising a successful android project from A to Z.Experienced in implementing
+            clean architecture patterns like MVVM to ensuring the quality and reliability of the software projects I work on.
+            I'm ready and eager to work to create something beautiful and unique.
           </p>
           <div className="aboutContact">
             <p>
@@ -51,7 +52,7 @@ export default function About({ colorBG, colorText, colorDynamic }) {
           </div>
           <div className="aboutButton">
             <a style={{ color: colorDynamic }} href="#Portfolio">
-              My work!
+              My works!
             </a>
             <a
               className="resume"

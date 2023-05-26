@@ -1,32 +1,34 @@
 import "./css/Portfolio.css";
 import { FcLink, FcNext } from "react-icons/fc";
 import mathstore from "../img/mathstore.jpeg";
-import shopping from "../img/shopping.JPG";
-import netflix from "../img/netflix.JPG"
+import dictionary from "../img/dictionarybanner.jpg";
+import beacoder from "../img/beacoderbanner.jpg";
 
 export default function Portfolio({ colorBG, colorText, colorDynamic }) {
   const workList = [
-    {
-      image: netflix,
-      title: "Netflix Landing Page Clone",
-      technologyUsed: "HTML, CSS",
-      liveLink: "https://netflixclonebyasikur.netlify.app/",
-      githubLink: "https://github.com/arkzen/Netflix-Clone",
-    },
-    {
-      image: shopping,
-      title: "Ecommerce React App",
-      technologyUsed: "HTML, CSS, JavaScript, React",
-      liveLink: "https://darkzenshop.netlify.app/",
-      githubLink: "https://github.com/arkzen/darkzenshop-reactapp",
-    },
+    
     {
       image: mathstore,
-      title: "MathStore Android App",
+      title: "MathStore: Calculators & BMI",
       technologyUsed: "Java, Android",
       liveLink: "https://play.google.com/store/apps/details?id=darkzen.studios.mathstoreproject&pli=1",
       githubLink: "https://github.com/arkzen/MathStore",
     },
+    {
+      image: dictionary,
+      title: "WordSense: Dictionary App",
+      technologyUsed: "Java, Retrofit, Rest API, LiveData, MVVM.",
+      liveLink: "https://netflixclonebyasikur.netlify.app/",
+      githubLink: "https://github.com/arkzen/dictionary-app",
+    },
+    {
+      image: beacoder,
+      title: "BeAcoder: Learn coding",
+      technologyUsed: "Java, Firebase, Retrofit, Rest API, Firebase",
+      liveLink: "https://darkzenshop.netlify.app/",
+      githubLink: "https://github.com/arkzen/beAcoder",
+    },
+   
   ];
 
   const initStyle = {

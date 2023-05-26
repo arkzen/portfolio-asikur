@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0a60bf82.css",
+    "main.js": "/static/js/main.b4500601.js",
+    "static/media/netflix.JPG": "/static/media/netflix.273bc6ac1bbca189ca88.JPG",
+    "static/media/face.jpg": "/static/media/face.01253df1703787b10fbd.jpg",
+    "static/media/shopping.JPG": "/static/media/shopping.c41b4c7b29f91e4bd134.JPG",
+    "static/media/mathstore.jpeg": "/static/media/mathstore.bb67c526173104ee3e34.jpeg",
+    "static/media/larry.png": "/static/media/larry.ccfeece7886f2662ae80.png",
+    "static/media/ar_logo_dark.png": "/static/media/ar_logo_dark.28e74a91790fa94dd32e.png",
+    "index.html": "/index.html",
+    "main.0a60bf82.css.map": "/static/css/main.0a60bf82.css.map",
+    "main.b4500601.js.map": "/static/js/main.b4500601.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a60bf82.css",
+    "static/js/main.b4500601.js"
+  ]
+}
