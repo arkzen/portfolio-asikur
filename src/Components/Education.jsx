@@ -24,7 +24,7 @@ export default function Education({ colorBG, colorText, colorDynamic }) {
           Gono Bishwabidyalay (GB)
           </p>
           <p className="educationResult">
-            <strong>Result:</strong> 3.28 out of 4.00
+            <strong>Result:</strong> 3.54 out of 4.00
           </p>
         </div>
         <div className="educationTypes">

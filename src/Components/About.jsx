@@ -57,7 +57,7 @@ export default function About({ colorBG, colorText, colorDynamic }) {
             <a
               className="resume"
               style={{ backgroundColor: colorDynamic, color: colorBG }}
-              href="https://asikur-docs.s3.ap-southeast-2.amazonaws.com/Resume-of-Asikur+rahman.pdf"
+              href="https://asikur-docs.s3.ap-southeast-2.amazonaws.com/Resume+-+asikur+rahman+Android+dev.pdf"
               target="_blank"
               rel="noreferrer"
             >

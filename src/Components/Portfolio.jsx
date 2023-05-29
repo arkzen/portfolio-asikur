@@ -18,14 +18,14 @@ export default function Portfolio({ colorBG, colorText, colorDynamic }) {
       image: dictionary,
       title: "WordSense: Dictionary App",
       technologyUsed: "Java, Retrofit, Rest API, LiveData, MVVM.",
-      liveLink: "https://netflixclonebyasikur.netlify.app/",
-      githubLink: "https://github.com/arkzen/dictionary-app",
+      liveLink: "https://asikur-android-projects.s3.ap-southeast-2.amazonaws.com/dictionaryapp/apk/wordsense.apk",
+      githubLink: "https://github.com/arkzen/dictionary-app-MVVM",
     },
     {
       image: beacoder,
       title: "BeAcoder: Learn coding",
       technologyUsed: "Java, Firebase, Retrofit, Rest API, Firebase",
-      liveLink: "https://darkzenshop.netlify.app/",
+      liveLink: "https://github.com/arkzen/beAcoder",
       githubLink: "https://github.com/arkzen/beAcoder",
     },
    
