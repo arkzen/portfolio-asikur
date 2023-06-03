@@ -10,6 +10,7 @@ import {
   SiKotlin,
   SiAndroid,
   SiAndroidauto,
+  SiAmazonaws,
   SiStrapi,
   SiAndroidstudio,
   SiCloud66,
@@ -86,9 +87,9 @@ export default function Skill({ colorBG, colorText, colorDynamic }) {
           </p>
         </div>
         <div className="skillCard">
-          <h3>Google Play</h3>
+          <h3>AWS S3,E2C</h3>
           <p style={{ color: colorText }}>
-            <SiGoogleplay />
+            <SiAmazonaws />
           </p>
         </div>
       </div>
